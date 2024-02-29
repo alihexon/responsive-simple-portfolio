@@ -1,138 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-:root {
-  --body-clr: ;
-  --surface-clr: rgba(0, 0, 0, 0.7);
-  --heading-clr: #ffffff;
-  --p-clr: rgb(227, 227, 227);
-  --font-family: Nunito, sans-serif;
-}
-
 * {
-  font-family: var(--font-family);
+  font-family: Nunito, sans-serif;
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
-  background-image: -webkit-linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-image: linear-gradient(90deg, #D9AFD9 0%, #97D9E1 100%);
+  background-image: -webkit-linear-gradient(90deg, #D9AFD9 0%, #97D9E1 100%);
   min-height: 100vh;
-}
-
-.glass {
-  background-color: var(--surface-clr);
-  backdrop-filter: blur(200px);
-  -webkit-backdrop-filter: blur(200px);
-  border-radius: 2em;
-  padding: 2em;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 4em;
-}
-
-.logo {
-  font-size: 1.5em;
-  font-weight: 700;
-  color: var(--heading-clr);
-}
-
-ul {
-  display: flex;
-  gap: 4em;
-}
-
-nav ul li {
-  list-style: none;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: var(--p-clr);
-  font-weight: 500;
-  transition: all 0.25s ease;
-}
-
-nav ul li a:hover {
-  color: rgb(108, 108, 255);
-}
-
-main {
-  display: flex;
-  width: 62vw;
-}
-
-.left {
-  padding: 4em 3em 0 0;
-}
-
-.left h2 {
-  font-size: 2em;
-  font-weight: 800;
-  color: var(--heading-clr);
-}
-
-.left p {
-  margin-top: 1.5em;
-  color: var(--p-clr);
-}
-
-.btn {
-  margin-top: 6em;
-  width: 100%;
-  padding: 10px 0;
-  background-color: transparent;
-  color: var(--p-clr);
-  border: 1px solid var(--heading-clr);
-  border-radius: 1em;
-  font-size: 16px;
-  cursor: pointer;
-  user-select: none;
-  transition: all 0.25s ease-out;
-}
-
-.btn:hover {
-  background-color: var(--heading-clr);
-  color: var(--surface-clr);
-}
-
-.btn:active {
-  opacity: 0.7;
-}
-
-@media screen and (max-width: 1472px) {
-
-  .right img {
-    width: 30vw;
-  }
-}
-
-@media screen and (max-width: 975px) {
-  main {
-    flex-direction: column;
-  }
-
-  .glass {
-    margin: 2em 0;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .logo {
-    font-size: 1.3em;
-  }
-
-  nav ul li a {
-    font-size: 0.9em;
-  }
 }
