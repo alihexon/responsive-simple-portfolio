@@ -94,7 +94,7 @@ main {
   padding: 8px 10px;
   cursor: pointer;
   user-select: none;
-  transition: background-color 0.25s, color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
 }
 
 .btn:hover {
@@ -120,11 +120,15 @@ main {
   border: none;
   cursor: pointer;
   user-select: none;
-  transition: all 0.25 ease-in-out;
+  transition: color 0.25s ease-in-out;
 }
 
 .bottom nav button:hover {
   color: rgb(148, 108, 218);
+}
+
+.bottom nav button:active {
+  opacity: 0.8;
 }
 
 .bottom nav button i {
