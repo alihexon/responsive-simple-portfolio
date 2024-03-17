@@ -23,7 +23,7 @@ body {
   backdrop-filter: blur(60px);
   -webkit-backdrop-filter: blur(60px);
   width: 1400px;
-  min-width: 700px;
+  min-width: 400px;
   min-height: 640px;
   padding: 40px 50px 10px 50px;
   margin: 0 auto;
@@ -147,6 +147,10 @@ main {
 @media screen and (max-width: 935px) {
   main {
     flex-direction: column;
+  }
+
+  .left {
+    width: 100%;
   }
 
   .right img {
