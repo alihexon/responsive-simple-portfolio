@@ -166,3 +166,21 @@ main {
     margin: 0 auto;
   }
 }
+
+@media screen and (max-width: 737px) {
+  header nav ul {
+    gap: 45px;
+  }
+}
+
+@media screen and (max-width: 647px) {
+  header nav ul {
+    gap: 35px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  header nav ul {
+    gap: 28px;
+  }
+}
