@@ -23,6 +23,7 @@ body {
   backdrop-filter: blur(60px);
   -webkit-backdrop-filter: blur(60px);
   width: 1400px;
+  min-width: 700px;
   padding: 40px 50px 10px 50px;
   margin: 0 auto;
   border-radius: 20px;
