@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 * {
   font-family: Nunito, sans-serif;
@@ -9,16 +9,22 @@
 
 body {
   background: linear-gradient(rgb(24, 21, 62) 16%, rgb(45, 45, 176) 50%);
-  background: -webkit-linear-gradient(rgb(24, 21, 62) 16%, rgb(45, 45, 176) 50%);
+  background: -webkit-linear-gradient(
+    rgb(24, 21, 62) 16%,
+    rgb(45, 45, 176) 50%
+  );
   min-height: 100vh;
-  padding: 5vh 30vh;
+  display: flex;
+  align-items: center;
 }
 
 .wrapper {
   background-color: rgba(0, 0, 0, 0.588);
   backdrop-filter: blur(60px);
   -webkit-backdrop-filter: blur(60px);
+  width: 1400px;
   padding: 40px 50px 10px 50px;
+  margin: 0 auto;
   border-radius: 20px;
 }
 
@@ -49,7 +55,7 @@ header li a {
 
 header li a:hover,
 .current {
-  color: rgb(127, 81, 207);
+  color: rgb(148, 108, 218);
 }
 
 main {
@@ -57,9 +63,10 @@ main {
 }
 
 .left {
-  width: 1000px;
-  padding-right: 100px;
   position: relative;
+  width: 700px;
+
+  margin-right: 200px;
 }
 
 .left h1 {
@@ -68,7 +75,7 @@ main {
 
 .left p {
   color: #a8a8a8;
-  margin: 40px 0;
+  margin: 40px 0 60px 0;
 }
 
 .btn-row {
@@ -79,13 +86,19 @@ main {
 .btn {
   font-size: 16px;
   background-color: transparent;
-  color: rgb(127, 81, 207);
-  border: 1px solid rgb(127, 81, 207);
+  color: rgb(148, 108, 218);
+  border: 1px solid rgb(148, 108, 218);
   border-radius: 6px;
-  width: 100%;
+  flex: 1;
   padding: 8px 10px;
   cursor: pointer;
   user-select: none;
+  transition: all 0.25s;
+}
+
+.btn:hover {
+  color: white;
+  background-color: rgb(148, 108, 218);
 }
 
 .left nav {
@@ -95,10 +108,29 @@ main {
   gap: 20px;
 }
 
+.left nav button {
+  background-color: transparent;
+  color: #a8a8a8;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.25 ease-in-out;
+}
 
+.left nav button:hover {
+  color: rgb(148, 108, 218);
+}
 
+.left nav button i {
+  font-size: 30px;
+}
 
+.right {
+  display: flex;
+}
 
 .right img {
-  width: 60%;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
 }
