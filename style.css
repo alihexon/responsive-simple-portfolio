@@ -25,7 +25,7 @@ body {
   width: 1400px;
   min-width: 400px;
   min-height: 640px;
-  padding: 40px 25px 10px 50px;
+  padding: 30px 50px 10px 50px;
   margin: 0 auto;
   border-radius: 20px;
 }
@@ -33,7 +33,6 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin-bottom: 80px;
 }
 
@@ -46,17 +45,24 @@ header nav ul {
   gap: 60px;
 }
 
-header nav li {
+header nav ul li {
   list-style: none;
 }
 
-header nav li a {
+header nav ul li a {
   color: #a8a8a8;
   text-decoration: none;
   transition: color 0.25s ease-in-out;
 }
 
+header nav ul li i {
+  color: #a8a8a8;
+  font-size: 40px;
+  visibility: hidden;
+}
+
 header nav li a:hover,
+header nav ul li i:hover,
 .current {
   color: rgb(148, 108, 218);
 }
@@ -189,4 +195,7 @@ main {
   header nav ul {
     gap: 25px;
   }
+}
+
+@media screen and (max-width: 565px) {
 }
