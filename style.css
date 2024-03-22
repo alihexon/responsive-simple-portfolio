@@ -55,7 +55,7 @@ header nav ul li a {
   transition: color 0.25s ease-in-out;
 }
 
-header nav ul li i {
+header i {
   color: #a8a8a8;
   font-size: 40px;
   visibility: hidden;
@@ -198,4 +198,7 @@ main {
 }
 
 @media screen and (max-width: 565px) {
+  header i {
+    visibility: visible;
+  }
 }
