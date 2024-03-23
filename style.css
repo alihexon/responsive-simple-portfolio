@@ -9,10 +9,7 @@
 
 body {
   background: linear-gradient(rgb(24, 21, 62) 16%, rgb(45, 45, 176) 50%);
-  background: -webkit-linear-gradient(
-    rgb(24, 21, 62) 16%,
-    rgb(45, 45, 176) 50%
-  );
+  background: -webkit-linear-gradient(rgb(24, 21, 62) 16%, rgb(45, 45, 176) 50%);
   min-height: 100vh;
   display: flex;
   align-items: center;
