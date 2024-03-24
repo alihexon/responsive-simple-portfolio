@@ -46,16 +46,16 @@ header nav ul li {
   list-style: none;
 }
 
-header nav ul li a {
+header nav ul li a,
+header nav ul li i {
   color: #a8a8a8;
   text-decoration: none;
   transition: color 0.25s ease-in-out;
 }
 
-header i {
-  color: #a8a8a8;
+header nav ul li i {
+  display: none;
   font-size: 40px;
-  visibility: hidden;
 }
 
 header nav li a:hover,
@@ -195,7 +195,7 @@ main {
 }
 
 @media screen and (max-width: 565px) {
-  header i {
-    visibility: visible;
+  header nav ul li i {
+    display: block;
   }
 }
