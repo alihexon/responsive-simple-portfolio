@@ -58,10 +58,15 @@ header nav ul li i {
   font-size: 40px;
 }
 
-header nav li a:hover,
+header nav ul li a:hover,
 header nav ul li i:hover,
 .current {
   color: rgb(148, 108, 218);
+}
+
+header nav ul li a:active,
+header nav ul li i:active {
+  opacity: 0.8;
 }
 
 main {
