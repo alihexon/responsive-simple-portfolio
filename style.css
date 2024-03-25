@@ -195,8 +195,12 @@ main {
   }
 }
 
-@media screen and (max-width: 565px) {
+@media screen and (max-width: 568px) {
+  header nav ul li a {
+    display: none;
+  }
+
   header nav ul li i {
-    display: block;
+    display: block !important;
   }
 }
