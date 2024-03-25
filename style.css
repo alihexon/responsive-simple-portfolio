@@ -173,7 +173,7 @@ main {
 
 @media screen and (max-width: 737px) {
   header nav ul {
-    gap: 45px;
+    gap: 42px;
   }
 }
 
@@ -189,7 +189,7 @@ main {
   }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 582px) {
   header nav ul {
     gap: 25px;
   }
