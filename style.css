@@ -171,31 +171,43 @@ main {
   }
 }
 
-@media screen and (max-width: 737px) {
+@media screen and (max-width: 690px) {
   header nav ul {
-    gap: 42px;
+    gap: 55px;
   }
 }
 
-@media screen and (max-width: 647px) {
+@media screen and (max-width: 670px) {
+  header nav ul {
+    gap: 50px;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  header nav ul {
+    gap: 45px;
+  }
+}
+
+@media screen and (max-width: 605px) {
+  header nav ul {
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width: 590px) {
   header nav ul {
     gap: 35px;
   }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 565px) {
   header nav ul {
-    gap: 28px;
+    gap: 30px;
   }
 }
 
-@media screen and (max-width: 582px) {
-  header nav ul {
-    gap: 25px;
-  }
-}
-
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 545px) {
   header nav ul li a {
     display: none;
   }
