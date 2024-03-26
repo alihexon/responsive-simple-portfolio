@@ -59,6 +59,22 @@ header nav ul li i {
   cursor: pointer;
 }
 
+.i-wrapper {
+  position: relative;
+}
+
+.menu-dropdown {
+  position: absolute;
+  bottom: 0;
+  left: -200px;
+  display: none;
+  flex-direction: column;
+}
+
+.menu-on {
+  display: flex;
+}
+
 header nav ul li a:hover,
 header nav ul li i:hover,
 .current {
@@ -213,7 +229,7 @@ main {
 }
 
 @media screen and (max-width: 545px) {
-  header nav ul li a {
+  .options li a {
     display: none;
   }
 
