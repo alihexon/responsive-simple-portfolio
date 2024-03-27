@@ -65,8 +65,8 @@ header nav ul li i {
 
 .menu-dropdown {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: -300px;
+  left: -300px;
   display: none;
   flex-direction: column;
 }
@@ -233,7 +233,7 @@ main {
     display: none;
   }
 
-  header nav ul li i {
+  .icon i {
     display: block !important;
   }
 }
