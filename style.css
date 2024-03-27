@@ -42,18 +42,18 @@ header nav ul {
   gap: 60px;
 }
 
-header nav ul li {
+header nav li {
   list-style: none;
 }
 
 header nav ul li a,
-header nav ul li i {
+header nav li i {
   color: #a8a8a8;
   text-decoration: none;
   transition: color 0.25s ease-in-out;
 }
 
-header nav ul li i {
+header nav li i {
   display: none !important;
   font-size: 40px;
   cursor: pointer;
