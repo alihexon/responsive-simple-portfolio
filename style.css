@@ -76,13 +76,13 @@ header nav li i {
 }
 
 header nav ul li a:hover,
-header nav ul li i:hover,
+header nav li i:hover,
 .current {
   color: rgb(148, 108, 218);
 }
 
 header nav ul li a:active,
-header nav ul li i:active {
+header nav li i:active {
   opacity: 0.8;
 }
 
