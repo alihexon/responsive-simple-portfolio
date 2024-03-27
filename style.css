@@ -65,8 +65,8 @@ header nav li i {
 
 .menu-dropdown {
   position: absolute;
-  bottom: -300px;
-  left: -300px;
+  bottom: -165px;
+  left: 0px;
   display: none;
   flex-direction: column;
 }
