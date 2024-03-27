@@ -5,4 +5,4 @@ function displayDropdown() {
   menuDropdown.classList.toggle('menu-on');
 }
 
-menuElement.addEventListener('click', () => displayDropdown);
+menuElement.addEventListener('click', displayDropdown);
