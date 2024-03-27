@@ -263,6 +263,10 @@ main {
     display: block !important;
   }
 
+  .menu-dropdown li a {
+    font-size: 15px;
+  }
+
   .left h1 {
     font-size: 28px;
   }
