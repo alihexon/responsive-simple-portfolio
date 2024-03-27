@@ -246,12 +246,33 @@ main {
 }
 
 @media screen and (max-width: 545px) {
+  .wrapper {
+    padding-right: 0;
+  }
+
+  main {
+    padding-right: 50px;
+  }
+
   .options li a {
     display: none;
   }
 
   .icon i {
+    font-size: 35px;
     display: block !important;
+  }
+
+  .left h1 {
+    font-size: 28px;
+  }
+
+  .left p {
+    font-size: 15px;
+  }
+
+  .btn {
+    font-size: 15px;
   }
 
   .right img {
