@@ -19,7 +19,7 @@ body {
   backdrop-filter: blur(60px);
   -webkit-backdrop-filter: blur(60px);
   width: 1400px;
-  min-width: 400px;
+  min-width: 200px;
   min-height: 640px;
   padding: 30px 50px 10px 50px;
   margin: 0 auto;
@@ -252,5 +252,27 @@ main {
 
   .icon i {
     display: block !important;
+  }
+
+  .right img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .right img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .right img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
   }
 }
