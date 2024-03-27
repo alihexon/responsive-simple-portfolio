@@ -71,16 +71,19 @@ header nav li i {
   position: absolute;
   bottom: -112px;
   left: -18px;
-  display: none;
+  display: flex;
   flex-direction: column;
   gap: 7px;
   transform: scale(0);
+  opacity: 0;
+  visibility: hidden;
+  transition: transform 0.4s, opacity 0.4s;
 }
 
 .menu-on {
-  display: flex;
   transform: scale(1);
-  transition: transform 0.4s;
+  opacity: 1;
+  visibility: visible;
 }
 
 header nav ul li a:hover,
