@@ -74,10 +74,13 @@ header nav li i {
   display: none;
   flex-direction: column;
   gap: 7px;
+  transform: scale(0);
 }
 
 .menu-on {
   display: flex;
+  transform: scale(1);
+  transition: transform 0.4s;
 }
 
 header nav ul li a:hover,
